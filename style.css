@@ -1,0 +1,85 @@
+/* This is a comment in CSS */
+/* Use this code to link the CSS file to the HTML file */
+/* <link rel="stylesheet" href="style.css"> */
+
+/* Use this code to select all elements and set some default properties */
+* {
+    box-sizing: border-box; /* This makes the width and height of an element include the padding and border */
+    margin: 0; /* This removes the default margin of an element */
+    padding: 0; /* This removes the default padding of an element */
+  }
+  
+  /* Use this code to select the body element and set some properties */
+  body {
+    font-family: Arial, sans-serif; /* This sets the font family of the text */
+    background-color: #f0f0f0; /* This sets the background color of the body */
+  }
+  
+  /* Use this code to select the h1 element and set some properties */
+  h1 {
+    color: #333333; /* This sets the color of the text */
+    text-align: center; /* This centers the text horizontally */
+    padding: 20px; /* This adds some space around the text */
+  }
+  
+  /* Use this code to select the p element and set some properties */
+  p {
+    color: #666666; /* This sets the color of the text */
+    font-size: 18px; /* This sets the size of the text */
+    line-height: 1.5; /* This sets the space between lines of text */
+    max-width: 800px; /* This sets the maximum width of the text */
+    margin: 20px auto; /* This centers the text horizontally and adds some space above and below it */
+  }
+  
+  /* Use this code to select the ul element and set some properties */
+  ul {
+    list-style-type: none; /* This removes the default bullets of the list items */
+    display: flex; /* This makes the list items display in a row */
+    justify-content: center; /* This centers the list items horizontally */
+  }
+  
+  /* Use this code to select the li element and set some properties */
+  li {
+    margin: 10px; /* This adds some space around the list items */
+  }
+  
+  /* Use this code to select the a element and set some properties */
+  a {
+    color: #333333; /* This sets the color of the link text */
+    text-decoration: none; /* This removes the default underline of the link text */
+  }
+  
+  /* Use this code to select the a element when it is hovered over and set some properties */
+  a:hover {
+    color: #ffffff; /* This sets the color of the link text when hovered over */
+    background-color: #333333; /* This sets the background color of the link text when hovered over */
+    padding: 5px; /* This adds some space around the link text when hovered over */
+  }
+  
+  /* Use this code to select the div element with id="bio" and set some properties */
+  div#bio {
+    border: none; /* This removes the border around the div element */ 
+    margin: 20px auto; /* This centers the div element horizontally and adds some space above and below it */ 
+  }
+  
+  /* Use this code to select the h2 element inside the div element with id="bio" and set some properties */ 
+  div#bio h2 { 
+    color: #333333; /* This sets the color of the text */ 
+    background-color: transparent; /* This makes the background color of
+  the text transparent */ 
+    padding: 10px; /* This adds some space around
+  the text */ 
+  } 
+  
+  /* Use this code to select
+  the p element inside
+  the div element with id="bio" and set some properties */ 
+  div#bio p { 
+  padding:
+  10px; /* This adds some space around
+  the text */ 
+  text-align:
+  center; /* This centers
+  the text horizontally */ 
+  }
+  
